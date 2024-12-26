@@ -1,0 +1,40 @@
+{
+  "name": "11258d7e-f2ab-46b0-adcf-d42617ea94cb",
+  "actions": [ {
+    "userUtterance": {
+      "text": "How do i log into uportal?\n"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ Json",
+      "action": "FAQ Json",
+      "inputActionParameters": {
+        "requestBody": {
+          "fallback": "",
+          "filter": "",
+          "query": "Login to uPortal360",
+          "userMetadata": {
+          
+          }
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "",
+          "snippets": [ {
+            "text": "",
+            "title": "",
+            "uri": ""
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "1. Visit https://uportal360.com/login\n2. Enter your Account Number and Access Code\na. Choose to Validate your Birthday\nb.Or click on \"Answer a Different Question\"\nc. Validate the last 4 of your SSN\n3. If you cannot login, call Universal Account Servicing, LLC Customer Care: 1-888-233-2302"
+    }
+  } ],
+  "displayName": "Grady",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

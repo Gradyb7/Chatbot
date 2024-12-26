@@ -1,0 +1,15 @@
+{
+  "displayName": "Test Agent",
+  "defaultLanguageCode": "en",
+  "timeZone": "America/Los_Angeles",
+  "projectNumber": 389272529687,
+  "advancedSettings": {
+    "loggingSettings": {
+    
+    }
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/389272529687/locations/global/collections/default_collection/engines/test-agent_1734720714536"
+  },
+  "startPlaybook": "Landing"
+}

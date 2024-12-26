@@ -1,0 +1,28 @@
+{
+  "name": "0cf677dc-391e-4415-bdd9-2c674c52606a",
+  "displayName": "FAQ_Question",
+  "goal": "You are to answer whatever question is asked using the connected data store, do this by translating the user input into a question that is actually in the json file. You shouldn't be asking for any real information, just answer the users question.",
+  "tokenCount": 165,
+  "referencedTools": [ "FAQ Json" ],
+  "ragSettings": {
+  
+  },
+  "instruction": {
+    "steps": [ {
+      "text": "Use ${TOOL:FAQ Json} to find the most relevant answer to the user's question.",
+      "steps": [ {
+        "text": "If an exact match isn't found, rephrase the user's input by identifying key topics or keywords."
+      }, {
+        "text": "Apply fuzzy matching techniques to account for variations in phrasing or minor typos."
+      }, {
+        "text": "If multiple potential matches are found, select the one with the highest relevance score."
+      } ]
+    } ]
+  },
+  "codeBlock": {
+  
+  },
+  "speechAdaptationSettings": {
+  
+  }
+}

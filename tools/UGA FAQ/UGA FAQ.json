@@ -1,0 +1,27 @@
+{
+  "name": "cca64e5d-50e8-404c-ab3a-f1845c5b2fdc",
+  "displayName": "UGA FAQ",
+  "description": "This tool contains the data store for the consumer FAQ for our company.",
+  "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "PUBLIC_WEB",
+      "dataStore": "projects/389272529687/locations/global/collections/default_collection/dataStores/uga-finance_1734618006531",
+      "documentProcessingMode": "DOCUMENTS"
+    } ],
+    "models": {
+      "summarizationModel": {
+      
+      }
+    },
+    "fallbackPrompt": {
+    
+    },
+    "groundingSettings": {
+    
+    },
+    "payloadSettings": {
+    
+    }
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

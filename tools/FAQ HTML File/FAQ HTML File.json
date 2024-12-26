@@ -1,0 +1,27 @@
+{
+  "name": "3ccb644f-3b99-4cb7-9d1c-891acc09173c",
+  "displayName": "FAQ HTML File",
+  "description": "Use to answer faq questions, do this by searching the html document for the question asked and looking for the text below it",
+  "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/389272529687/locations/global/collections/default_collection/dataStores/faqhtml_1735225229176",
+      "documentProcessingMode": "DOCUMENTS"
+    } ],
+    "models": {
+      "summarizationModel": {
+      
+      }
+    },
+    "fallbackPrompt": {
+    
+    },
+    "groundingSettings": {
+    
+    },
+    "payloadSettings": {
+    
+    }
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

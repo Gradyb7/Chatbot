@@ -1,0 +1,28 @@
+{
+  "name": "749dec6d-7bce-4b8b-baf4-b866988d8034",
+  "displayName": "FAQ Json",
+  "description": "json file containing FAQs and their corresponding answers",
+  "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/389272529687/locations/global/collections/default_collection/dataStores/faqjson_1735227977698",
+      "documentProcessingMode": "DOCUMENTS"
+    } ],
+    "models": {
+      "summarizationModel": {
+        "model": "gemini_15_flash_001",
+        "promptText": "Given the conversation between a Human and an AI assistant and a list of sources, write a final answer for the AI assistant.\nFollow these guidelines:\n  + Answer the Human's query by finding the most relevant question from the FAQ JSON file.\n  + Use fuzzy matching or keyword search techniques to match user input with the questions in the FAQ JSON.\n  + Normalize the user query by converting to lowercase and removing common stop words.\n  + If a relevant question is found, return the corresponding answer exactly as it appears in the JSON file.\n  + If no relevant question is found, respond: \"I'm sorry, I couldn't find information for your question.\"\n  + Provide a step-by-step process in the AI logic to ensure accuracy:\n    1. Preprocess the user query.\n    2. Search for the most relevant match.\n    3. Extract and return the corresponding answer.\n  + Ensure all numerical details (dates, times, phone numbers) are accurately displayed as in the source.\n  + The answer MUST be in English and contain no additional or fabricated information.\n\n\nSources:\n$sources\n\n$conversation\nHuman: $original-query\nAI:"
+      }
+    },
+    "fallbackPrompt": {
+    
+    },
+    "groundingSettings": {
+    
+    },
+    "payloadSettings": {
+    
+    }
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

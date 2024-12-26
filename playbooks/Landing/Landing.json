@@ -1,0 +1,18 @@
+{
+  "name": "f442bab9-1030-485d-aac5-75d53fd99509",
+  "displayName": "Landing",
+  "goal": "Find out which playbook to run to help with whatever the user needs.",
+  "tokenCount": 80,
+  "referencedPlaybooks": [ "FAQ_Question" ],
+  "referencedTools": [ "FAQ Json" ],
+  "instruction": {
+    "steps": [ {
+      "text": "Greet the user, ask them what they need help with today"
+    }, {
+      "text": "If the user asks a question, use ${PLAYBOOK:FAQ_Question} to answer it"
+    } ]
+  },
+  "codeBlock": {
+  
+  }
+}
