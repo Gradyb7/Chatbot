@@ -1,0 +1,27 @@
+{
+  "name": "7cda841c-84f6-4ac7-8747-1623ab76ecaa",
+  "displayName": "FAQ PDF",
+  "description": "PDF Doc containing faqs.",
+  "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/389272529687/locations/global/collections/default_collection/dataStores/pdffaq_1735313057888",
+      "documentProcessingMode": "DOCUMENTS"
+    } ],
+    "models": {
+      "summarizationModel": {
+        "model": "gemini_pro"
+      }
+    },
+    "fallbackPrompt": {
+    
+    },
+    "groundingSettings": {
+    
+    },
+    "payloadSettings": {
+    
+    }
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

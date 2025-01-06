@@ -1,37 +1,36 @@
 {
-  "name": "11258d7e-f2ab-46b0-adcf-d42617ea94cb",
+  "name": "49cebc9e-21d8-430c-9161-362344f15aa1",
   "actions": [ {
     "userUtterance": {
-      "text": "How do i log into uportal?\n"
+      "text": "how can i check if my info with credit beaureus is updated"
     }
   }, {
     "toolUse": {
-      "tool": "FAQ Json",
-      "action": "FAQ Json",
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
       "inputActionParameters": {
         "requestBody": {
-          "fallback": "",
-          "filter": "",
-          "query": "Login to uPortal360",
-          "userMetadata": {
-          
-          }
+          "query": "how can i check if my info with credit beaureus is updated"
         }
       },
       "outputActionParameters": {
         "200": {
-          "answer": "",
+          "answer": "You can contact each of the three major credit bureaus (Experian, Equifax, and TransUnion) at any time to make sure your information is accurate and up to date.",
           "snippets": [ {
-            "text": "",
-            "title": "",
-            "uri": ""
+            "text": "Q: How Do I Check that My Information is Updated with Major Credit Bureaus? A: You can contact each of the three major credit bureaus (Experian, Equifax, and TransUnion) at any time to make sure your information (Name, Address, Credit Freeze, Fraud Alerts) are accurate and up to date. If you require assistance with Transunion, please see the information below “How Do I Check that My Information is Updated with Major Credit Bureaus?” in our FAQ website. Q: how do I login to uportal360? A: 1. Visit https://uportal360.com/login 2. Enter your Account Number and Access Code a. Choose to Validate your Birthday b. Or click on \"Answer a Different Question\" c. Validate the last 4 of your SSN 3. If you cannot login, call Universal Account Servicing, LLC Customer Care: 1-888- 233-2302 Q: where can i find my access code? A:",
+            "title": "faq done",
+            "uri": "https://storage.cloud.google.com/ugatest/faq done.pdf#page=5"
+          }, {
+            "text": "Q: How Do I Check that My Information is Updated with Major Credit Bureaus? A: You can contact each of the three major credit bureaus (Experian, Equifax, and TransUnion) at any time to make sure your information (Name, Address, Credit Freeze, Fraud Alerts) are accurate and up to date.",
+            "title": "faq done",
+            "uri": "https://storage.cloud.google.com/ugatest/faq done.pdf#page=5"
           } ]
         }
       }
     }
   }, {
     "agentUtterance": {
-      "text": "1. Visit https://uportal360.com/login\n2. Enter your Account Number and Access Code\na. Choose to Validate your Birthday\nb.Or click on \"Answer a Different Question\"\nc. Validate the last 4 of your SSN\n3. If you cannot login, call Universal Account Servicing, LLC Customer Care: 1-888-233-2302"
+      "text": "You can contact each of the three major credit bureaus (Experian, Equifax, and TransUnion) at any time to make sure your information is accurate and up to date.\n\nIf you require assistance with Transunion, please see the information below “How Do I Check that My Information is Updated with Major Credit Bureaus?” here: https://universalaccountservicing.com/#faq-Uportal360Login"
     }
   } ],
   "displayName": "Grady",

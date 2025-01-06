@@ -1,0 +1,15 @@
+{
+  "name": "7c76f3c3-da62-4479-98b6-16bab5d1d670",
+  "actions": [ {
+    "userUtterance": {
+      "text": "how can i contact you"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Phone: \n1-888-233-2302 (Monday - Friday: 7AM - 7PM Central Time) \n\nAddress: \nPO Box 12027, Parkville, MO 64152 \n\nEmail:\nSupport@universalaccountservicing.com \n\n\n"
+    }
+  } ],
+  "displayName": "Example Contact",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

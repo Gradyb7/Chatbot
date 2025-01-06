@@ -1,0 +1,15 @@
+{
+  "name": "0ee44146-0c35-4975-bafe-98eb2c9c771c",
+  "actions": [ {
+    "userUtterance": {
+      "text": "i keep getting errors"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "If you are receiving error messages, please check the following troubleshooting steps:\n\nPayment Method (Type of payment method selected must match card being used) \n\nFirst name and Last name are spelled/entered correctly \n\nAddress is entered correctly. Address associated with card must match the address entered \n\nChecking account and bank routing number were entered correctly \n\nCredit/Debit card number is entered correctly \n\nCVV/CVC is entered and correct \n\nExpiration month/year is correct \n\nIf these steps don't fix your issue, please tell me the specific error code so I can provide further assistance.\n\n"
+    }
+  } ],
+  "displayName": "general errors",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

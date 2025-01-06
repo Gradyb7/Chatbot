@@ -1,0 +1,35 @@
+{
+  "name": "b4f8f0d8-acd2-4e2c-8960-f2160225b95b",
+  "actions": [ {
+    "userUtterance": {
+      "text": "I keep getting the error saying funds cannot be released for this transaction"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "I keep getting the error saying funds cannot be released for this transaction"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "Review the information and try again. Funds cannot be released for this transaction The transaction type does not support releasing funds, or the transaction has passed the time limit for releasing funds. Contact card issuer for assistance releasing a hold on card.",
+          "snippets": [ {
+            "text": "Review the information and try again. Funds cannot be released for this transaction The transaction type does not support releasing funds, or the transaction has passed the time limit for releasing funds. Contact card issuer for assistance releasing a hold on card.",
+            "title": "FAQDONE2",
+            "uri": "https://storage.cloud.google.com/ugatest/FAQDONE2.pdf#page=4"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Review the information and try again. Funds cannot be released for this transaction The transaction type does not support releasing funds, or the transaction has passed the time limit for releasing funds. Contact card issuer for assistance releasing a hold on card."
+    }
+  } ],
+  "displayName": "specific error",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

@@ -1,7 +1,7 @@
 {
-  "name": "cca64e5d-50e8-404c-ab3a-f1845c5b2fdc",
-  "displayName": "UGA FAQ",
-  "description": "This tool contains the data store for the consumer FAQ for our company.",
+  "name": "340aa1b1-af86-4104-9923-da095ebcfe8c",
+  "displayName": "FAQ Website",
+  "description": "Website containing FAQs. Answer the users question with the corresponding answer.",
   "dataStoreSpec": {
     "dataStoreConnections": [ {
       "dataStoreType": "PUBLIC_WEB",

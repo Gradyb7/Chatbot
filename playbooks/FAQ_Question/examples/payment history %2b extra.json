@@ -1,0 +1,51 @@
+{
+  "name": "e3a302d0-0408-46da-b2dd-b39f81ff8199",
+  "actions": [ {
+    "userUtterance": {
+      "text": "can i see my payment history"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "can i see my payment history"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "Yes, from the Menu, select Your Account and then select \"Transactions\". You will see a list of all Payment history as well as any other types of transactions.",
+          "snippets": [ {
+            "text": "Q: Can I See My Transactions or Payment History? A: Yes, from the Menu, select Your Account and then select \"Transactions\". You will see a list of all Payment history as well as any other types of transactions.",
+            "title": "FAQDONE2",
+            "uri": "https://storage.cloud.google.com/ugatest/FAQDONE2.pdf#page=2"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Yes, from the Menu, select Your Account and then select \"Transactions\". You will see a list of all Payment history as well as any other types of transactions."
+    }
+  }, {
+    "userUtterance": {
+      "text": "what is the payment amount?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "The payment amount is the total cost of the payment."
+    }
+  }, {
+    "userUtterance": {
+      "text": "what is the status?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "The status is the current state of the payment. It can be listed as processing, complete, or declined."
+    }
+  } ],
+  "displayName": "payment history + extra",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

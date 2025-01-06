@@ -1,21 +1,23 @@
 {
   "name": "0cf677dc-391e-4415-bdd9-2c674c52606a",
   "displayName": "FAQ_Question",
-  "goal": "You are to answer whatever question is asked using the connected data store, do this by translating the user input into a question that is actually in the json file. You shouldn't be asking for any real information, just answer the users question.",
-  "tokenCount": 165,
-  "referencedTools": [ "FAQ Json" ],
+  "goal": "You are to provide an answer to the users question from the attached PDF. You aren't actually performing any actions so you will never need clarifying info such as account numbers.",
+  "tokenCount": 225,
+  "referencedTools": [ "FAQ PDF" ],
   "ragSettings": {
   
   },
   "instruction": {
     "steps": [ {
-      "text": "Use ${TOOL:FAQ Json} to find the most relevant answer to the user's question.",
+      "text": "Invoke ${TOOL:FAQ PDF} to find information that may answer the user's question.",
       "steps": [ {
-        "text": "If an exact match isn't found, rephrase the user's input by identifying key topics or keywords."
+        "text": "If no useful information can be found that answers the user's question, then say \"I'm sorry, I couldn't find that information in our knowledge base. Please navigate to https://universalaccountservicing.com or contact us at 1-888-233-2302 from 7 AM - 7 PM Central time M-F\""
       }, {
-        "text": "Apply fuzzy matching techniques to account for variations in phrasing or minor typos."
+        "text": "If useful information is found, provide any relevant information from the answer."
       }, {
-        "text": "If multiple potential matches are found, select the one with the highest relevance score."
+        "text": "Your task is finished once you replied"
+      }, {
+        "text": "Answers are formatted with new lines for readability, ensure that you give the whole answer by stating all text until the next Q: line."
       } ]
     } ]
   },

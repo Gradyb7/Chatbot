@@ -1,0 +1,67 @@
+{
+  "name": "6ce558ec-d193-47b0-a37f-7c8d86155c63",
+  "actions": [ {
+    "userUtterance": {
+      "text": "How are auto payments applied?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "How are auto payments applied?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "Auto payments are applied as follows:\n- First to outstanding finance charges (interest), fees and any past due amounts.\n- Then to special promotional financing term amounts in the order of expiration, soonest first.\n- Next to interest-bearing amounts, in interest rate order, higher rates first (if applicable).",
+          "snippets": [ {
+            "text": "A: An explanation of how your payments are applied can be found in your Agreement or Contract. Generally, UAS applies payments for certain credit products as detailed below. Bank Installment Loans and Retail Installment Contracts: We generally allocate all payments first to interest, then to any unpaid fees, and then to the balance of outstanding principal. Retail Installment Credit Agreements: We generally apply payments first to outstanding finance charges (interest), fees and any past due amounts. After outstanding fees and past–due amounts are paid, the Minimum Monthly Payment as well as any excess over the Minimum Monthly Payment, will be applied as follows: First to special promotional financing term amounts in the order of expiration, soonest first, next to interest-bearing amounts, in interest rate order, higher rates first (if applicable). Q: How Do I Enroll in AutoPay? A:",
+            "title": "faq done",
+            "uri": "https://storage.cloud.google.com/ugatest/faq done.pdf#page=9"
+          }, {
+            "text": "After outstanding fees and past–due amounts are paid, the Minimum Monthly Payment as well as any excess over the Minimum Monthly Payment, will be applied as follows: First to special promotional financing term amounts in the order of expiration, soonest first, next to interest-bearing amounts, in interest rate order, higher rates first (if applicable).",
+            "title": "faq done",
+            "uri": "https://storage.cloud.google.com/ugatest/faq done.pdf#page=9"
+          }, {
+            "text": "1. From the Menu, select Your Account, then select \"AutoPay\" 2. Select Setup AutoPay 3. If you do not have a Payment Method on file, add a Checking Account or Credit Card a. See \"How do I manage Payment Methods?\" for help 4. Select your Payment Method for AutoPay 5. Select Minimum Payment or enter an Override Payment Amount for accelerated payoff 6. Read the Disclosure 7. Sign by using your finger on a Phone or Tablet, or click and hold the left mouse key as you draw a signature 8. Select Submit 9. AutoPay Success Message will be displayed.",
+            "title": "faq done",
+            "uri": "https://storage.cloud.google.com/ugatest/faq done.pdf#page=9"
+          }, {
+            "text": "Q: Can I Update My AutoPay Amount or Method of Payment Being Used? A: Yes, 1. From the Menu, select Your Account, then select \"AutoPay\" 2. Select \"Update\"",
+            "title": "faq done",
+            "uri": "https://storage.cloud.google.com/ugatest/faq done.pdf#page=2"
+          }, {
+            "text": "g. Delete - Red Trashcan i. Removes the Payment method from our system h. Delete Payment Method used for AutoPay i. If you delete a Payment Method that is used for AutoPay, you will get an error ii. You must first Opt-Out of AutoPay, Ask \"Can I Opt-Out of AutoPay?\" Q: Can I See My Transactions or Payment History? A: Yes, from the Menu, select Your Account and then select \"Transactions\". You will see a list of all Payment history as well as any other types of transactions. For more information on transactions and payment history, navigate to https://universalaccountservicing.com/#faq-ErrorCodes and view the table under “Can I See My Transactions or Payment History?” Q: Can I See My Charge Details? A: Yes, from the Menu, select Your Account and then select \"Charges\". For more information about charge details, navigate to https://universalaccountservicing.com/#faq-ErrorCodes and view the table below “Can I see my charge details?”",
+            "title": "faq done",
+            "uri": "https://storage.cloud.google.com/ugatest/faq done.pdf#page=2"
+          }, {
+            "text": "Q: Can I See My Transactions or Payment History? A: Yes, from the Menu, select Your Account and then select \"Transactions\". You will see a list of all Payment history as well as any other types of transactions.",
+            "title": "faq done",
+            "uri": "https://storage.cloud.google.com/ugatest/faq done.pdf#page=2"
+          }, {
+            "text": "Q: What is required to update my name or other account information that i am not able to edit on the uportal360? A: Please contact Universal Account Servicing, LLC Customer Care: 1-888-233-2302. Depending on what information that you are needing to update, we will require that you send us a copy of one of these documents that includes the information that you are requesting to be changed: Social Security Card, W-2 Form, Current driver's license, Passport, Birth Certificate, Unexpired U.S. Military ID, State ID, U.S. Military discharge papers (Form DD214), U.S. Certificate of Naturalization (Form N-550 or N-570), U.S. Certificate of Citizenship (Form N 560 or N-561), Court order, Alien Registration Card (Form I-551 or I-151), Marriage certificate Please send your documentation to: PO BOX 12027 Parkville, MO 64152 Q: Notice to student loan borrowers of alternative repayment arrangements A:",
+            "title": "faq done",
+            "uri": "https://storage.cloud.google.com/ugatest/faq done.pdf#page=8"
+          }, {
+            "text": "This notice is specific to student loan borrowers regarding certain alternative repayment and/or hardship arrangements for which you may be eligible. Your private student loan provider does not provide alternative repayment or hardship arrangements for retail installment contracts. As the third-party student loan servicer, UAS does not provide alternative repayment options and/or hardship arrangements unless directed to by your private student loan provider. For further details, please contact us at (888) 233-2302 or contact your student loan provider directly to discuss what options may be available. Q: How are my payments applied?",
+            "title": "faq done",
+            "uri": "https://storage.cloud.google.com/ugatest/faq done.pdf#page=8"
+          }, {
+            "text": "For further details, please contact us at (888) 233-2302 or contact your student loan provider directly to discuss what options may be available. Q: How are my payments applied?",
+            "title": "faq done",
+            "uri": "https://storage.cloud.google.com/ugatest/faq done.pdf#page=8"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "An explanation of how your payments are applied can be found in your Agreement or Contract. Generally, UAS applies payments for certain credit products as detailed below. \n\nBank Installment Loans and Retail Installment Contracts: We generally allocate all payments first to interest, then to any unpaid fees, and then to the balance of outstanding principal. \n\nRetail Installment Credit Agreements: We generally apply payments first to outstanding finance charges (interest), fees and any past due amounts. After outstanding fees and past–due amounts are paid, the Minimum Monthly Payment as well as any excess over the Minimum Monthly Payment, will be applied as follows: First to special promotional financing term amounts in the order of expiration, soonest first, next to interest-bearing amounts, in interest rate order, higher rates first (if applicable). "
+    }
+  } ],
+  "displayName": "How are payments applied",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}
