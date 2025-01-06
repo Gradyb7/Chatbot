@@ -1,0 +1,35 @@
+{
+  "name": "221c2eda-84cc-45e2-ae4b-d6ed94780adc",
+  "actions": [ {
+    "userUtterance": {
+      "text": "what are the promotions?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "what are the promotions?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "UAS may offer special promotional interest terms, such as a deferred interest term, for select purchases. The terms of any special promotional interest terms are detailed in your Agreement or Charge Slip, as applicable. For more information about promotions visit https://universalaccountservicing.com/#faq DeferredInterestPromotions and see under What Do I need to know about deferred interest programs.”",
+          "snippets": [ {
+            "text": "When choosing how to pay your balance, keep in mind that you may need to pay more than the scheduled monthly payment each month in order to pay off the qualifying purchase by the promotional expiration date. Review your monthly billing statement for important details regarding any applicable special promotional interest terms. Regular Account terms apply to non-promotional purchases and, after a special promotion ends, to qualifying purchases. Special promotional interest terms are subject to credit approval. For more information about promotions visit https://universalaccountservicing.com/#faq DeferredInterestPromotions and see under What Do I need to know about deferred interest programs.” Q: How Do I Check that My Information is Updated with Major Credit Bureaus? A: You can contact each of the three major credit bureaus (Experian, Equifax, and TransUnion) at any time to make sure your information (Name, Address, Credit Freeze, Fraud Alerts) are accurate and up to date.",
+            "title": "FinalFAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FinalFAQ.pdf#page=7"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "UAS may offer special promotional interest terms, such as a deferred interest term, for select purchases. The terms of any special promotional interest terms are detailed in your Agreement or Charge Slip, as applicable. \n\nFor more information about promotions visit https://universalaccountservicing.com/#faq DeferredInterestPromotions and see under What Do I need to know about deferred interest programs.”"
+    }
+  } ],
+  "displayName": "promos",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

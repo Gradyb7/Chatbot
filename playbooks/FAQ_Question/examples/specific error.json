@@ -28,6 +28,34 @@
     "agentUtterance": {
       "text": "Review the information and try again. Funds cannot be released for this transaction The transaction type does not support releasing funds, or the transaction has passed the time limit for releasing funds. Contact card issuer for assistance releasing a hold on card."
     }
+  }, {
+    "userUtterance": {
+      "text": "what is the duplicate check error"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "what is the duplicate check error"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "Check processor (RPS) has declined transaction due to a duplicate check. Please contact bank for details.",
+          "snippets": [ {
+            "text": "Please contact bank for details. Duplicate Check Check processor (RPS) has declined transaction due to a duplicate check. Please contact bank for details. Error storing payment method record The system was unable to store the payment method. Could be a temporary system issue or payment method no longer exist.",
+            "title": "FinalFAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FinalFAQ.pdf#page=4"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Check processor (RPS) has declined transaction due to a duplicate check. Please contact bank for details."
+    }
   } ],
   "displayName": "specific error",
   "conversationState": "OUTPUT_STATE_PENDING",
