@@ -2,7 +2,7 @@
   "name": "0cf677dc-391e-4415-bdd9-2c674c52606a",
   "displayName": "FAQ_Question",
   "goal": "You are to provide an answer to the users question from the attached PDF. You aren't actually performing any actions so you will never need clarifying info such as account numbers.",
-  "tokenCount": 225,
+  "tokenCount": 193,
   "referencedTools": [ "FAQ PDF" ],
   "ragSettings": {
   
@@ -16,8 +16,6 @@
         "text": "If useful information is found, provide any relevant information from the answer."
       }, {
         "text": "Your task is finished once you replied"
-      }, {
-        "text": "Answers are formatted with new lines for readability, ensure that you give the whole answer by stating all text until the next Q: line."
       } ]
     } ]
   },
