@@ -1,0 +1,83 @@
+{
+  "name": "854b1aa5-3e46-4b2e-ad4e-26b5564b88fc",
+  "actions": [ {
+    "userUtterance": {
+      "text": "can i make a payment after the promotional period ends?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "can i make a payment after the promotional period ends?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "Yes, you can make a payment after the promotional period ends. However, you are still required to make the regularly scheduled Monthly Payments until the Contract is repaid in full.",
+          "snippets": [ {
+            "text": "You may prepay any amount without penalty. If you prepay any part of what you owe, you are still required to make the regularly scheduled Monthly Payments (unless we have agreed in writing to a change in the payment schedule), until the Contract is repaid in full.",
+            "title": "Credit Application",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_RISA_RIC_Closed.pdf#page=6"
+          }, {
+            "text": "If you prepay any part of what you owe, you are still required to make the regularly scheduled Monthly Payments (unless we have agreed to a change in the payment schedule), until the Loan is repaid in full. Prepayments and late payments will not change the due date or amount of your Monthly Payment.",
+            "title": "Credit Application",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_Pathward_Template.pdf#page=6"
+          }, {
+            "text": "For example, you may see special promotional interest terms such as: No Interest if Paid in Full Within 6 Months No Interest if Paid in Full Within 12 Months No Interest if Paid in Full Within 24 Months When choosing how to pay your balance, keep in mind that you may need to pay more than the scheduled monthly payment each month in order to pay off the qualifying purchase by the promotional expiration date.",
+            "title": "FinalFAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FinalFAQ.pdf#page=7"
+          }, {
+            "text": "When you make a qualifying purchase under a special promotion, no interest will be charged on the qualifying purchase if you pay the entire balance within the applicable promotional period. If you do not, interest will be charged on the promotional purchase from the purchase date or as specified on your charge slip. Minimum or fixed monthly payments are required. Regular Account terms apply to non-promotional purchases and, after a special promotion ends, to qualifying purchases. Special Promotional Financing Offers are subject to credit approval. Special Promotional Financing Offers may not be available at all times for all purchases. Please see any special promotion disclosures provided to you in your charge slip (if any) for the full terms of any special promotion that may be offered. No Interest if Paid in Full Within 6 Months",
+            "title": "Sample_RISA_RICA_Open",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_RISA_RICA_Open.pdf#page=6"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Yes, you can make a payment after the promotional period ends. However, you are still required to make the regularly scheduled Monthly Payments until the Contract is repaid in full."
+    }
+  }, {
+    "userUtterance": {
+      "text": "what happens if i make my payment after my promotional period"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "what happens if i make my payment after my promotional period"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "If you do not pay the entire balance of a qualifying purchase within the promotional period, interest will be charged from the purchase date or as specified on your charge slip at the APR for Purchases that applies to your Account when the qualifying purchase is made.",
+          "snippets": [ {
+            "text": "For each special promotion, if the entire balance of a qualifying purchase that is not paid in full within the promotional period, interest will be charged from the purchase date or as specified on your charge slip at the APR for Purchases that applies to your Account when the qualifying purchase is made. No Interest if Paid in Full Within 12 Months No Interest if Paid in Full Within 24 Months DocuSign Envelope ID: 6D9EFA57-D392-4B60-8E44-FAD59B3D601F",
+            "title": "Sample_RISA_RICA_Open",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_RISA_RICA_Open.pdf#page=6"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "If you do not pay the entire balance of a qualifying purchase within the promotional period, interest will be charged from the purchase date or as specified on your charge slip at the APR for Purchases that applies to your Account when the qualifying purchase is made."
+    }
+  }, {
+    "userUtterance": {
+      "text": "are you able to make that payment for me?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I am unable to make payments for you. You can make payments through the Uportal360 website or by calling customer service at 1-888-233-2302."
+    }
+  } ],
+  "displayName": "Call 20240105183656_NULL_7739914207.mp3 ",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

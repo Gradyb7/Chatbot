@@ -1,7 +1,7 @@
 {
   "name": "7cda841c-84f6-4ac7-8747-1623ab76ecaa",
   "displayName": "FAQ PDF",
-  "description": "PDF Doc containing faqs.",
+  "description": "A collection of PDF documents. \n\nFAQ.PDF is a list of FAQs\n\nDocuments in the agreement details include 3 contract documents and other policies",
   "dataStoreSpec": {
     "dataStoreConnections": [ {
       "dataStoreType": "UNSTRUCTURED",
