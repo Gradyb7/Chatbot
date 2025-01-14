@@ -1,0 +1,31 @@
+{
+  "name": "8b8918da-8d9a-44f6-8a99-c7102ca6da78",
+  "actions": [ {
+    "userUtterance": {
+      "text": "what is the process for opening a support ticket"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "what is the process for opening a support ticket"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "",
+          "snippets": [ ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "In order to open a support ticket, you must navigate to Uportal360. Look at the navigation menu and select \"help\". From there, select \"start inquiry\". \n\n"
+    }
+  } ],
+  "displayName": "Support Ticket",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "564e29c6-a620-48cb-9f28-61cbc1cff68d",
+  "actions": [ {
+    "userUtterance": {
+      "text": "I need to delay this months payment"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "I need to delay this months payment"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "",
+          "snippets": [ ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "If you need to delay or miss this months payment, please note that extra fees will be added to your account after the ten day grace period expires."
+    }
+  } ],
+  "displayName": "Late payment",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "c0de76ad-91c2-4cfd-840b-b91c8cbacc60",
+  "actions": [ {
+    "userUtterance": {
+      "text": "i made a payment yesterday and this morning i got charged again"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "i made a payment yesterday and this morning i got charged again"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "Payments received after 5 p.m. (CST) may be credited as of the next business day.",
+          "snippets": [ {
+            "text": "When Payments Are Due. You must pay at least the total minimum payment due on your Account by 5 p.m. (CST) on the due date of each billing cycle. Payments received after 5 p.m. (CST) may be credited as of the next business day. You may at any time pay, in whole or in part, the total unpaid balance without any additional charge for prepayment. If you have a balance subject to interest, earlier payments may reduce the amount of interest you will pay. We may delay making credit available on your Account in the amount of your payment even though we will credit your payment when we receive it. Account Billing Statements and Notices If you have a credit or debit balance on the Account of $1 or more at the end of any billing cycle, we will send a periodic statement (a “bill”) showing what you owe at the end of that billing cycle. Each statement that we send will identify the billing cycle that it covers.",
+            "title": "Sample_RISA_RICA_Open",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_RISA_RICA_Open.pdf#page=7"
+          }, {
+            "text": "d. Payment Crediting. You promise to make all payments to the address and in the manner that we direct. If your Monthly Payment due date falls on a day which is not a business day, we will treat any payment that we receive on the next business day as having been received on your Monthly Payment due date. You may make payments under this Contract using a check, credit card, debit card, or by ACH transfer (auto-pay). Payments made online and by mailing a physical check are not subject to a customer service fee. Payments made by phone with the aid of a customer service representative may be subject to an additional fee, and you agree to pay such fee unless prohibited by applicable law. All payments due under this Contract must be paid in the currency of the United States of America (US Dollars). You must not send cash in the mail. Payments that we receive by 11:59 p.m. CST will be credited to your Contract as of that day.",
+            "title": "Credit Application",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_RISA_RIC_Closed.pdf#page=6"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Payments received after 5 p.m. (CST) may be credited as of the next business day."
+    }
+  }, {
+    "userUtterance": {
+      "text": "how do i find out the date of my next payment"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "how do i find out the date of my next payment"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "",
+          "snippets": [ ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "You can find the date of your next payment on your billing statement."
+    }
+  }, {
+    "userUtterance": {
+      "text": "i dont have my billing statement "
+    }
+  }, {
+    "agentUtterance": {
+      "text": "You can access your billing statement online through the Uportal360 website."
+    }
+  }, {
+    "userUtterance": {
+      "text": "how do i access my uportal website?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "how do i access my uportal website?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "1. Visit https://uportal360.com/login\n2. Enter your Account Number and Access Code\n3. Choose to Validate your Birthday or click on \"Answer a Different Question\"\n4. Validate the last 4 of your SSN",
+          "snippets": [ {
+            "text": "A: 1. Visit https://uportal360.com/login 2. Enter your Account Number and Access Code a. Choose to Validate your Birthday b. Or click on \"Answer a Different Question\" c. Validate the last 4 of your SSN 3.",
+            "title": "FAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FAQ.pdf#page=8"
+          }, {
+            "text": "A: 1. Visit https://uportal360.com/login 2. Enter your Account Number and Access Code a. Choose to Validate your Birthday b. Or click on \"Answer a Different Question\" c. Validate the last 4 of your SSN 3.",
+            "title": "FinalFAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FinalFAQ.pdf#page=8"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "1. Visit https://uportal360.com/login\n2. Enter your Account Number and Access Code\n3. Choose to Validate your Birthday or click on \"Answer a Different Question\"\n4. Validate the last 4 of your SSN"
+    }
+  } ],
+  "displayName": "example interaction 2",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

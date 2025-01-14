@@ -3,13 +3,40 @@
   "defaultLanguageCode": "en",
   "timeZone": "America/Los_Angeles",
   "projectNumber": 389272529687,
+  "speechToTextSettings": {
+  
+  },
   "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
     "loggingSettings": {
     
     }
   },
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+  
+  },
   "genAppBuilderSettings": {
     "engine": "projects/389272529687/locations/global/collections/default_collection/engines/test-agent_1734720714536"
   },
-  "startPlaybook": "FAQ_Question"
+  "duplexSettings": {
+  
+  },
+  "startPlaybook": "FAQ_Question",
+  "webClientSettings": {
+    "boxBorderRadius": "0"
+  }
 }

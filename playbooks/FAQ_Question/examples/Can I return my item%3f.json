@@ -1,0 +1,39 @@
+{
+  "name": "14f7c0c5-db86-434f-ad12-b9d64cacabb9",
+  "actions": [ {
+    "userUtterance": {
+      "text": "I don't need the item that i filled out my contract for, can i return it"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "I don't need the item that i filled out my contract for, can i return it"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "If you are dissatisfied with the goods or services that you have purchased with your Account, and you have tried in good faith to correct the problem with the Approved Retail Seller, you may have the right not to pay the remaining amount due on the purchase. To use this right, all of the following must be true: 1. The purchase must have been made from an authorized merchant. 2. You must have used your Account for a purchase from the Approved Retail Seller. 3. You must not yet have fully paid for the purchase.",
+          "snippets": [ {
+            "text": "Your Rights If You Are Dissatisfied With Your Purchases If you are dissatisfied with the goods or services that you have purchased with your Account, and you have tried in good faith to correct the problem with the Approved Retail Seller, you may have the right not to pay the remaining amount due on the purchase. To use this right, all of the following must be true: 1. The purchase must have been made from an authorized merchant. 2. You must have used your Account for a purchase from the Approved Retail Seller. 3. You must not yet have fully paid for the purchase. If all of the criteria above are met and you are still dissatisfied with the purchase, contact our Third-Party Billing Service Provider in writing: Universal Account Servicing, LLC P.O. Box 12027 Parkville, MO 64152 While we investigate, the same rules apply to the disputed billing amount as discussed above in the “While we investigate whether or not there has been a Billing Error” section above.",
+            "title": "Sample_RISA_RICA_Open",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_RISA_RICA_Open.pdf#page=11"
+          }, {
+            "text": "the length of the code and being numeric, this warning is unlikely to change. Any attempt to access your account would also require the additional question to be answered correctly. Your Payment Card and ACH information is not stored in our portal. No one can access your full payment information even if they have managed to compromise your account. All that is seen is the last 4 digit. We never store the CVV anywhere in our database. Q: How do I access the account if i am a co-applicant (joint applicant, cosigner, co-buyer)? A:",
+            "title": "FinalFAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FinalFAQ.pdf#page=10"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "If you are dissatisfied with the goods or services that you have purchased with your Account, and you have tried in good faith to correct the problem with the Approved Retail Seller, you may have the right not to pay the remaining amount due on the purchase. \n\nTo use this right, all of the following must be true: 1. The purchase must have been made from an authorized merchant. 2. You must have used your Account for a purchase from the Approved Retail Seller. 3. You must not yet have fully paid for the purchase.\n\n\nIf all of the criteria above are met and you are still dissatisfied with the purchase, contact our Third-Party Billing Service Provider in writing:\n\nUniversal Account Servicing, LLC\nP.O. Box 12027\nParkville, MO 64152\n"
+    }
+  } ],
+  "displayName": "Can I return my item?",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

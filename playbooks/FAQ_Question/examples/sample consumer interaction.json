@@ -1,0 +1,147 @@
+{
+  "name": "2ae3997c-ebe3-4a26-864a-c3a0d7cc0352",
+  "actions": [ {
+    "userUtterance": {
+      "text": "what are all the options for making my payment?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "what are all the options for making my payment?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "You can make your payment in US dollars by physical or electronic check, money order, payment card, or a similar instrument from a bank located in the United States.",
+          "snippets": [ {
+            "text": "Your payment must be made in US dollars by physical or electronic check, money order, payment card, or a similar instrument from a bank located in the United States. How To Make A Payment. You must follow the instructions for making payments provided on your billing statement.",
+            "title": "Sample_RISA_RICA_Open",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_RISA_RICA_Open.pdf#page=7"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "You can make your payment in US dollars by physical or electronic check, money order, payment card, or a similar instrument from a bank located in the United States."
+    }
+  }, {
+    "userUtterance": {
+      "text": "what is uportal360?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "what is uportal360?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "",
+          "snippets": [ ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Uportal360 is a secure online portal where you can manage your account. You can make payments, view your account balance, and see your payment history."
+    }
+  }, {
+    "userUtterance": {
+      "text": "how do i login to uportal?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "how do i login to uportal?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "To log in to Uportal360, visit https://uportal360.com/login and enter your Account Number and Access Code. You can choose to validate your Birthday or click on \"Answer a Different Question\" and validate the last 4 of your SSN.",
+          "snippets": [ {
+            "text": "If you require assistance with Transunion, please see the information below “How Do I Check that My Information is Updated with Major Credit Bureaus?” in our FAQ website. Q: how do I login to uportal360? A: 1. Visit https://uportal360.com/login 2. Enter your Account Number and Access Code a. Choose to Validate your Birthday b. Or click on \"Answer a Different Question\" c. Validate the last 4 of your SSN 3. If you cannot login, call Universal Account Servicing, LLC Customer Care: 1-888- 233-2302 Q: where can i find my access code? A:",
+            "title": "FAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FAQ.pdf#page=8"
+          }, {
+            "text": "If you require assistance with Transunion, please see the information below “How Do I Check that My Information is Updated with Major Credit Bureaus?” in our FAQ website. Q: how do I login to uportal360? A: 1. Visit https://uportal360.com/login 2. Enter your Account Number and Access Code a. Choose to Validate your Birthday b. Or click on \"Answer a Different Question\" c. Validate the last 4 of your SSN 3. If you cannot login, call Universal Account Servicing, LLC Customer Care: 1-888- 233-2302 Q: where can i find my access code? A:",
+            "title": "FinalFAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FinalFAQ.pdf#page=8"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "To log in to Uportal360, visit https://uportal360.com/login and enter your Account Number and Access Code. You can choose to validate your Birthday or click on \"Answer a Different Question\" and validate the last 4 of your SSN."
+    }
+  }, {
+    "userUtterance": {
+      "text": "where can i find my access code?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "where can i find my access code?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "You can find your Access Code on your Monthly Statement, on the Welcome Letter that was part of your contract packet, or by selecting 'Forgot Access Code' on the login screen.",
+          "snippets": [ {
+            "text": "1. On your Monthly Statement 2. On the Welcome Letter that was part of your contract packet 3. You can also have your Access Code sent to you by selecting 'Forgot Access Code' on the login screen: a. On login screen select 'Forgot Access Code' b. Enter your Account Number and either your Birthdate or Last 4 of your Social Security Number c. Confirm your e-mail address d. Select \"Send\" e. Your Access Code will instantly be sent to the e-mail address on file Q: what do i do if i receive a validation failed error message when trying to access the uportal360?",
+            "title": "FAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FAQ.pdf#page=8"
+          }, {
+            "text": "1. On your Monthly Statement 2. On the Welcome Letter that was part of your contract packet 3. You can also have your Access Code sent to you by selecting 'Forgot Access Code' on the login screen: a. On login screen select 'Forgot Access Code' b. Enter your Account Number and either your Birthdate or Last 4 of your Social Security Number c. Confirm your e-mail address d. Select \"Send\" e. Your Access Code will instantly be sent to the e-mail address on file Q: what do i do if i receive a validation failed error message when trying to access the uportal360?",
+            "title": "FinalFAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FinalFAQ.pdf#page=8"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "You can find your Access Code on your Monthly Statement, on the Welcome Letter that was part of your contract packet, or by selecting 'Forgot Access Code' on the login screen."
+    }
+  }, {
+    "userUtterance": {
+      "text": "i dont think i can make my pament in time this month, what is going to happen?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "i dont think i can make my pament in time this month, what is going to happen?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "",
+          "snippets": [ ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "UGA Finance offers a 10 day grace period for late payments. Following this period, your account will begin to accrue late fees."
+    }
+  } ],
+  "displayName": "sample consumer interaction",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}
