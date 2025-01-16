@@ -1,0 +1,67 @@
+{
+  "name": "05a53d07-6b46-4999-9f64-f8f0e978045b",
+  "actions": [ {
+    "userUtterance": {
+      "text": "what should a consumer know about credit scores"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "What should a consumer know about credit scores"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "Your credit score is a number that reflects the information in your credit report. Your credit report is a record of your credit history. It includes information about whether you pay your bills on time and how much you owe to creditors. Your credit score can change, depending on how your credit history changes. The range of scores is from a low of 300 to a high of 850. Generally, the higher your score, the more likely you are to be offered better credit terms.",
+          "snippets": [ {
+            "text": "Your Credit Score and the Price You Pay for Credit Your Credit Score Your credit score Applicant Score: Co-Applicant Score: (as applicable) Source: Transunion Date: Understanding Your Credit Score What you should know about credit scores Your credit score is a number that reflects the information in your credit report. Your credit report is a record of your credit history. It includes information about whether you pay your bills on time and how much you owe to creditors. Your credit score can change, depending on how your credit history changes. How we use your credit score Your credit score can affect whether you can get a loan and how much you will have to pay for that loan. The range of scores Scores range from a low of 300 to a high of 850. Generally, the higher your score, the more likely you are to be offered better credit terms. How your score compares to the scores of other consumers Docusign Envelope ID: B50EA735-F3FD-431A-BD5D-01B4A96A5E11",
+            "title": "Credit Application",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_RISA_RIC_Closed.pdf#page=3"
+          }, {
+            "text": "Pathward®, National Association Your Credit Score and the Price You Pay for Credit Your Credit Score Your credit score Applicant Score: Co-Applicant Score: (as applicable) Source: Transunion Date: Understanding Your Credit Score What you should know about credit scores Your credit score is a number that reflects the information in your credit report. Your credit report is a record of your credit history. It includes information about whether you pay your bills on time and how much you owe to creditors. Your credit score can change, depending on how your credit history changes. How we use your credit score Your credit score can affect whether you can get a loan and how much you will have to pay for that loan. The range of scores Scores range from a low of 300 to a high of 850. Generally, the higher your score, the more likely you are to be offered better credit terms. How your score compares to the scores of other consumers DocuSign Envelope ID: A3B428EC-8957-44AB-A6E6-2899EB899304",
+            "title": "Credit Application",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_Pathward_Template.pdf#page=3"
+          }, {
+            "text": "Your Credit Score and the Price You Pay for Credit Your Credit Score Your credit score Applicant Score: Co-Applicant Score: (as applicable) Source: Transunion Date: Understanding Your Credit Score What you should know about credit scores Your credit score is a number that reflects the information in your credit report. Your credit report is a record of your credit history. It includes information about whether you pay your bills on time and how much you owe to creditors. Your credit score can change, depending on how your credit history changes. How we use your credit score Your credit score can affect whether you can get a loan and how much you will have to pay for that loan. The range of scores Scores range from a low of 300 to a high of 850. Generally, the higher your score, the more likely you are to be offered better credit terms. How your score compares to the scores of other consumers DocuSign Envelope ID: 6D9EFA57-D392-4B60-8E44-FAD59B3D601F",
+            "title": "Sample_RISA_RICA_Open",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_RISA_RICA_Open.pdf#page=3"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Their credit score is a number that reflects the information in their credit report. Their credit report is a record of their credit history. It includes information about whether they pay their bills on time and how much they owe to creditors. Their credit score can change, depending on how their credit history changes. The range of scores is from a low of 300 to a high of 850. Generally, the higher their score, the more likely they are to be offered better credit terms."
+    }
+  }, {
+    "userUtterance": {
+      "text": "what should they know about credit terms"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "What should they know about credit terms"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "",
+          "snippets": [ ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Credit terms are the conditions under which a lender will provide credit to a borrower. These terms can include the interest rate, the repayment period, and any fees associated with the loan."
+    }
+  } ],
+  "displayName": "credit information",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

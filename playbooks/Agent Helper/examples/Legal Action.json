@@ -1,0 +1,39 @@
+{
+  "name": "5487ac82-7181-4d1e-857a-baf17b26d654",
+  "actions": [ {
+    "userUtterance": {
+      "text": "A consumer wants to take legal action what do i do"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "What to do if a consumer wants to take legal action"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "You or your attorney may file a complaint with the New Hampshire Commissioner of Banking, State of New Hampshire Banking Department, 53 Regional Drive, Suite 200, Concord NH 03301.",
+          "snippets": [ {
+            "text": "You or your attorney may file a complaint with the New Hampshire Commissioner of Banking, State of New Hampshire Banking Department, 53 Regional Drive, Suite 200, Concord NH 03301. Instructions for filing complaints can be found on the Commissioner's website at www.nh.gov/banking/consumer assistance/complaint.htm.",
+            "title": "Credit Application",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_Pathward_Template.pdf#page=10"
+          }, {
+            "text": "You or your attorney may file a complaint with the New Hampshire Commissioner of Banking, State of New Hampshire Banking Department, 53 Regional Drive, Suite 200, Concord NH 03301. Instructions for filing complaints can be found on the Commissioner's website at www.nh.gov/banking/consumerassistance/complaint.",
+            "title": "Credit Application",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_RISA_RIC_Closed.pdf#page=8"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "They or their attorney may file a complaint with the New Hampshire Commissioner of Banking, State of New Hampshire Banking Department, 53 Regional Drive, Suite 200, Concord NH 03301. Instructions for filing complaints can be found on the Commissioner's website at \\nh.gov/banking/consumer assistance/complaint.htm."
+    }
+  } ],
+  "displayName": "Legal Action",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

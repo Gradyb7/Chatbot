@@ -1,0 +1,31 @@
+{
+  "name": "9bbb91bb-ae3f-4cd8-ae6c-db67aa2d38ab",
+  "actions": [ {
+    "userUtterance": {
+      "text": "a consumer wants to skip a payment for this month, what do i do"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "How to skip a payment"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "",
+          "snippets": [ ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "A consumer can delay a payment during their 10 day grace period. After that, they will start accruing late fees."
+    }
+  } ],
+  "displayName": "skip a payment",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

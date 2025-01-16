@@ -1,0 +1,51 @@
+{
+  "name": "2a89b0fa-07cf-4683-875e-f241f8540f57",
+  "actions": [ {
+    "userUtterance": {
+      "text": "can a consumer make their payment after their promotional period ends?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "Can a consumer make their payment after their promotional period ends?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "Yes, you can make payments after the promotional period ends. However, if you do not pay the entire balance within the promotional period, interest will be charged from the purchase date at the APR for Purchases that applies to your Account when the qualifying purchase is made.",
+          "snippets": [ {
+            "text": "For each special promotion, if the entire balance of a qualifying purchase that is not paid in full within the promotional period, interest will be charged from the purchase date or as specified on your charge slip at the APR for Purchases that applies to your Account when the qualifying purchase is made. No Interest if Paid in Full Within 12 Months No Interest if Paid in Full Within 24 Months DocuSign Envelope ID: 6D9EFA57-D392-4B60-8E44-FAD59B3D601F",
+            "title": "Sample_RISA_RICA_Open",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_RISA_RICA_Open.pdf#page=6"
+          }, {
+            "text": "A deferred interest promotion is not a zero-interest loan; rather, it means that interest is calculated, but not added to your Account balance if 1) the balance is paid in full within the promotional period, and 2) scheduled monthly payments are made on time each month. If the conditions of your special promotional interest terms are not met, interest will be charged from the date of the qualifying purchase at the Annual Percentage Rate (APR) disclosed in your Agreement or Charge Slip, as applicable. The terms of any special promotional interest terms are detailed in your Agreement or Charge Slip, as applicable. For example, you may see special promotional interest terms such as: No Interest if Paid in Full Within 6 Months No Interest if Paid in Full Within 12 Months No Interest if Paid in Full Within 24 Months",
+            "title": "FAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FAQ.pdf#page=7"
+          }, {
+            "text": "You may prepay any amount without penalty. If you prepay any part of what you owe, you are still required to make the regularly scheduled Monthly Payments (unless we have agreed in writing to a change in the payment schedule), until the Contract is repaid in full.",
+            "title": "Credit Application",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_RISA_RIC_Closed.pdf#page=6"
+          }, {
+            "text": "For example, you may see special promotional interest terms such as: No Interest if Paid in Full Within 6 Months No Interest if Paid in Full Within 12 Months No Interest if Paid in Full Within 24 Months When choosing how to pay your balance, keep in mind that you may need to pay more than the scheduled monthly payment each month in order to pay off the qualifying purchase by the promotional expiration date.",
+            "title": "FinalFAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FinalFAQ.pdf#page=7"
+          }, {
+            "text": "If you prepay any part of what you owe, you are still required to make the regularly scheduled Monthly Payments (unless we have agreed to a change in the payment schedule), until the Loan is repaid in full. Prepayments and late payments will not change the due date or amount of your Monthly Payment.",
+            "title": "Credit Application",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_Pathward_Template.pdf#page=6"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Yes, they can make payments after the promotional period ends. However, if they do not pay the entire balance within the promotional period, interest will be charged from the purchase date at the APR for Purchases that applies to their Account when the qualifying purchase is made."
+    }
+  } ],
+  "displayName": "Promo question",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

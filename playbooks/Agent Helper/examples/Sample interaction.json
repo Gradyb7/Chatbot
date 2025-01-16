@@ -1,0 +1,107 @@
+{
+  "name": "8997fa2c-51f2-4201-a9d7-bbec50d87dc0",
+  "actions": [ {
+    "userUtterance": {
+      "text": "Where can a consumer make a payment?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "Where can a consumer make a payment?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "You can pay by mail or online portal. Payments made on online and over the phone using a payment card product may be subject to surcharge.",
+          "snippets": [ {
+            "text": "Payment Options. You can pay by mail or online portal. Payments made on online and over the phone using a payment card product may be subject to surcharge, the amount of which shall not be greater than our cost of acceptance.",
+            "title": "Sample_RISA_RICA_Open",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_RISA_RICA_Open.pdf#page=7"
+          }, {
+            "text": "d. Payment Crediting. You promise to make all payments to the address and in the manner that we direct. If your Monthly Payment due date falls on a day which is not a business day, we will treat any payment that we receive on the next business day as having been received on your Monthly Payment due date. You may make payments under this Contract using a check, credit card, debit card, or by ACH transfer (auto-pay). Payments made online and by mailing a physical check are not subject to a customer service fee. Payments made by phone with the aid of a customer service representative may be subject to an additional fee, and you agree to pay such fee unless prohibited by applicable law. All payments due under this Contract must be paid in the currency of the United States of America (US Dollars). You must not send cash in the mail. Payments that we receive by 11:59 p.m. CST will be credited to your Contract as of that day.",
+            "title": "Credit Application",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_RISA_RIC_Closed.pdf#page=6"
+          }, {
+            "text": "You promise to make all payments to the address and in the manner that we direct. If your Monthly Payment due date falls on a day which is not a business day, we will treat any payment that we receive on the next business day as having been received on your Monthly Payment due date. You may make payments under this Agreement using a check, credit card, debit card, or by ACH transfer. Payments may be made over the telephone, online at uPortal360.com, or by mailing a check to the address stated in Section 3(a) above. All payments due under this Agreement must be paid in the currency of the United States of America (US Dollars). You must not send cash in the mail. Payments that we receive by 11:59 p.m. CST will be credited to your Loan as of that day. d. Payment Allocation. We generally allocate all payments first to interest, then to any unpaid fees, and then to the balance of outstanding principal, subject to applicable law. e.",
+            "title": "Credit Application",
+            "uri": "https://storage.cloud.google.com/ugatest/Agreement Details/Sample_Pathward_Template.pdf#page=6"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "They can pay by mail or online portal. Payments made on online and over the phone using a payment card product may be subject to surcharge."
+    }
+  }, {
+    "userUtterance": {
+      "text": "how can a consumer sign into uportal 360"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "How can a consumer sign into uportal 360"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "1. Visit https://uportal360.com/login\n2. Enter your Account Number and Access Code\n3. Choose to Validate your Birthday\n4. Or click on \"Answer a Different Question\"\n5. Validate the last 4 of your SSN",
+          "snippets": [ {
+            "text": "A: 1. Visit https://uportal360.com/login 2. Enter your Account Number and Access Code a. Choose to Validate your Birthday b. Or click on \"Answer a Different Question\" c. Validate the last 4 of your SSN 3.",
+            "title": "FAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FAQ.pdf#page=8"
+          }, {
+            "text": "A: 1. Visit https://uportal360.com/login 2. Enter your Account Number and Access Code a. Choose to Validate your Birthday b. Or click on \"Answer a Different Question\" c. Validate the last 4 of your SSN 3.",
+            "title": "FinalFAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FinalFAQ.pdf#page=8"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "To sign into uportal 360,  have them visit uportal360.com/login, have them enter their Account Number and Access Code, then have them choose to Validate their Birthday or click on \"Answer a Different Question\" and have them validate the last 4 digits of their SSN."
+    }
+  }, {
+    "userUtterance": {
+      "text": "where do they find the access code"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "Where do they find the access code"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "You can find your Access Code on your Monthly Statement, on the Welcome Letter that was part of your contract packet, or by selecting 'Forgot Access Code' on the login screen.",
+          "snippets": [ {
+            "text": "A: 1. On your Monthly Statement 2. On the Welcome Letter that was part of your contract packet 3. You can also have your Access Code sent to you by selecting 'Forgot Access Code' on the login screen: a. On login screen select 'Forgot Access Code' b.",
+            "title": "FAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FAQ.pdf#page=8"
+          }, {
+            "text": "A: 1. On your Monthly Statement 2. On the Welcome Letter that was part of your contract packet 3. You can also have your Access Code sent to you by selecting 'Forgot Access Code' on the login screen: a. On login screen select 'Forgot Access Code' b.",
+            "title": "FinalFAQ",
+            "uri": "https://storage.cloud.google.com/ugatest/FinalFAQ.pdf#page=8"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "They can find their Access Code on their Monthly Statement, on the Welcome Letter that was part of their contract packet, or by selecting 'Forgot Access Code' on the login screen."
+    }
+  } ],
+  "displayName": "Sample interaction",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

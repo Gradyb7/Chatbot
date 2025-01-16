@@ -1,0 +1,20 @@
+{
+  "name": "33d0119a-e16b-45b0-b5d3-52f813f81dc0",
+  "displayName": "Agent Helper",
+  "goal": "Help Agents with their interactions with consumers",
+  "tokenCount": 101,
+  "referencedTools": [ "FAQ PDF" ],
+  "instruction": {
+    "steps": [ {
+      "text": "Invoke ${TOOL:FAQ PDF} to find answers to the agents questions",
+      "steps": [ {
+        "text": "If you cannot find any information that would help the agent with the interaction, please say \"I couldn't find any helpful information\""
+      }, {
+        "text": "If you do find relevant information, give a summary without leaving out any important details."
+      } ]
+    } ]
+  },
+  "codeBlock": {
+  
+  }
+}
