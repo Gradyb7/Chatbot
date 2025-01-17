@@ -1,0 +1,31 @@
+{
+  "name": "e6486675-78a5-4083-b1cf-ce0c04cd2234",
+  "actions": [ {
+    "userUtterance": {
+      "text": "A consumer doesnt need the item anymore and wants to return it, what should i do"
+    }
+  }, {
+    "toolUse": {
+      "tool": "FAQ PDF",
+      "action": "FAQ PDF",
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "What to do if a consumer wants to return an item"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "",
+          "snippets": [ ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "If they are dissatisfied with the goods or services that they have purchased with their Account, and they have tried in good faith to correct the problem with the Approved Retail Seller, they may have the right not to pay the remaining amount due on the purchase. \n\nTo use this right, all of the following must be true: 1. The purchase must have been made from an authorized merchant. 2. They must have used their Account for a purchase from the Approved Retail Seller. 3. They must not yet have fully paid for the purchase.\n\n\nIf all of the criteria above are met and they are still dissatisfied with the purchase, have them contact our Third-Party Billing Service Provider in writing:\n\nUniversal Account Servicing, LLC\nP.O. Box 12027\nParkville, MO 64152\n"
+    }
+  } ],
+  "displayName": "Return item",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}
